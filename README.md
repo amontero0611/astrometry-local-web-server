@@ -14,8 +14,8 @@ Provides the following endpoints:
                         curl --location --request POST 'http://localhost:8080/submit' \
                          --form 'file=@"/home/nerd/astrometry/123456"'
                     
-                        The job first makes a solve-field command on the uploaded file, and then a wcsinfo command on the generated output.
-                        All temporary files are deleted. And the following is a sample output of the whole job:
+The job first makes a solve-field command on the uploaded file, and then a wcsinfo command on the generated output.
+All temporary files are deleted. And the following is a sample output of the whole job:
                     
                         {
                           "crpix0": "527.184163411",
